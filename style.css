@@ -1,0 +1,409 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+header h1{
+    color:#fca311;
+}
+
+header{
+    height:80px;
+    width:auto;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.service ul{
+display: inline-flex;
+}
+
+
+.service ul li{
+     list-style: none;
+     font-size:20px;
+     margin:20px;
+}
+
+.service ul li a{
+    text-decoration: none;
+     font-family: sans-serif;
+     color:#fca311;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.service ul li a:hover{
+    color:lightseagreen;
+    transition: .5s;
+    
+}
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services i{
+    margin:25px;
+    font-size: 22px;
+}
+
+.services .fa-brands{
+color:#fca311;
+
+}
+
+
+.container1{
+    height: 600px;
+    width:auto;
+    max-width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('gym2.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container1 span{
+    color:#fca311;
+}
+
+.container1 h1, p{
+    margin-left:100px;
+    color: #fff;
+}
+
+.container1 p{
+    margin-top: 25px;
+    font-size: 22px;
+}
+
+.container1 h1{
+    font-size: 40px;
+}
+
+.container1 button{
+    width:150px;
+    height:40px;
+    margin-top:60px;
+    margin-left:190px;
+    border-radius: 20px;
+    background-color: #fca311;
+}
+
+.container1 button a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color:#fff;
+}
+
+.container1 button:hover{
+    background-color: #fca311;
+    opacity: 0.80;
+}
+/* 
+styling container2 */
+
+.container2{
+    height:400px;
+    width:auto;
+    background-color: #212529;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container2 .heading-name{
+    height:40px;
+    width:100%;
+    text-align: center;
+    color:#fff;
+}
+
+#box{
+    height: 300px;
+    width:400px;
+}
+
+.container2-innerbox1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.container2-innerbox1 i{
+    font-size:30px;
+    color:#fca311;
+    margin:10px;
+}
+
+.container2-innerbox1 p{
+    margin-right:70px;
+    margin:10px;
+}
+
+.container2-innerbox1 h2{
+    margin-left:20px;
+    font-weight: bold;
+    color:#fff;
+}
+
+
+
+
+
+/* styling container2 innerbox2 */
+
+
+.container2-innerbox2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.container2-innerbox2 i{
+    font-size:30px;
+    color:#fca311;
+    margin:10px;
+}
+
+.container2-innerbox2 p{
+    margin-right:70px;
+    margin:10px;
+}
+
+.container2-innerbox2 h2{
+    margin-left:20px;
+    font-weight: bold;
+    color:#fff;
+}
+
+/* container3  */
+
+.container3{
+    height:400px;
+    width:100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#inner{
+    height:400px;
+    width:50% ;
+    background-color:#212529;
+}
+#inner i{
+    color: #f0120b;
+}
+.container3-innerbox1{
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('gym-girl.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.innerbox1{
+    height:150px;
+    width:auto;
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    padding:20px;
+}
+
+
+.innerbox2{
+    height:150px;
+    width:auto;
+   margin-top:30px;
+   display: flex;
+   justify-content: center;
+   padding:20px;
+}
+
+.innerbox1 ,.innerbox2 h2{
+    color:#fca311;
+}
+
+/* styling container4 */
+.container4{
+    height:600px;
+    width:auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}  
+
+.container4 h2{
+    color:#fca311;
+}
+
+.top-name{
+    height: 60px;
+    width:100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+#model{
+    height:420px;
+    width:300px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.top-name h2 i{
+    color:red;
+    margin-right:20px;
+}
+
+.image1{
+    height:300px;
+    width:300px;
+    background-image: url('protein.webp');
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+.image2{
+    height:300px;
+    width:300px;
+    background-image: url('cretine.webp');
+    background-position: center;
+    background-size: cover;
+}
+.image3{
+    height:300px;
+    width:300px;
+    background-image: url('dumbbell.webp');
+    background-position: center;
+    background-size: cover;
+}
+.image4{
+    height:300px;
+    width:300px;
+    background-image: url('610PmINlJBL.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.container4 h2, h3, h4{
+    text-align: center;
+    margin:10px;
+}
+
+/* styling banner section */
+.banner-section{
+    height:400px;
+    width:auto;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('join\ us.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner-section h1{
+    color:#fff;
+    margin-left: 100px;
+}
+
+.banner-section button{
+    height:40px;
+    width:200px;
+    background-color:#fca311;
+    border-radius:15px;
+    margin-top:50px;
+    border:none;
+}
+
+.banner-section button a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    color:#000;
+}
+
+/* styling container5 */
+.container5{
+    height:500px;
+    width:auto;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    
+}
+
+#contain{
+    height:450px;
+    width:450px;
+  
+}
+
+.cont1{
+    background-image: url('girl5.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius:30px;
+    animation:  animate 8s infinite linear ;
+}
+
+@keyframes animate{
+    0%{
+        background-image: url('girl5.jpg');
+    background-position: center;
+    background-size: cover;
+    }
+    25%{
+        background-image: url('girl1.jpg');
+    background-position: center;
+    background-size: cover;
+    }
+    50%{
+        background-image: url('girl2.jpg');
+    background-position: center;
+    background-size: cover;
+    }
+    75%{
+        background-image: url('girl3.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    100%{
+        background-image: url('girl4.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+.cont2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.cont2 p{
+    color:#000;
+    text-align: start;
+    margin:20px;
+    font-size: 18px;
+}
+
+
+
